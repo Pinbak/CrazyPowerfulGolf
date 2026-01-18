@@ -1,3 +1,3 @@
 ScaleOuterLandScape();
 
-CameraFollowInstance(RoomCenter);
+CameraFollowInstance(RoomCenter, 0.05);

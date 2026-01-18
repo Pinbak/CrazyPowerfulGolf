@@ -1,4 +1,6 @@
-draw_sprite_ext(SprGolfBall, 0, x, y, 1, 1, 0, c_white, 1);
+/// feather ignore all
+
+draw_sprite_ext(SprGolfBall, 0, x, y, DrawnScale, DrawnScale, 0, Colour, 1);
 
 if (IsDragging)
 {
@@ -22,7 +24,7 @@ if (IsDragging)
 		
 		var scale = i * 0.1 + 1;
 		
-		draw_sprite_ext(SprDotTrail, 0, curX, curY, scale, scale, 0, c_white, 1);
+		draw_sprite_ext(SprDotTrail, 0, curX, curY, scale, scale, 0, Colour, 1);
 	}
 }
 

@@ -9,6 +9,10 @@ PowerMultiplier = 5;
 
 Released = false;
 
+DrawnScale = 1;
+
+IsOverHole = false;
+
 GetLaunchDistance = function(endPosX, endPosY)
 {
 	var pullDistance = EuclideanDistance(StartedDraggingPositionX,

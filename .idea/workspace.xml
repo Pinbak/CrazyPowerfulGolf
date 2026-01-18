@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04f00cd1-d1f4-45e5-ac57-09f02b82713a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/objects/GolfBall/Alarm_0.gml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/GolfBall/Collision_Wall.gml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrazyPowerfulGolf.yyp" beforeDir="false" afterPath="$PROJECT_DIR$/CrazyPowerfulGolf.yyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/art.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/art.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/GolfBall/Create_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Create_0.gml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/GolfBall/Draw_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Draw_0.gml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/GolfBall/GolfBall.yy" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/GolfBall.yy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/GolfBall/Mouse_53.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Mouse_53.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/GolfBall/Mouse_56.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Mouse_56.gml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/GolfBall/Step_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Step_0.gml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/Wall/Wall.yy" beforeDir="false" afterPath="$PROJECT_DIR$/objects/Wall/Wall.yy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/html5/options_html5.yy" beforeDir="false" afterPath="$PROJECT_DIR$/options/html5/options_html5.yy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/windows/options_windows.yy" beforeDir="false" afterPath="$PROJECT_DIR$/options/windows/options_windows.yy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/Room1/Room1.yy" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/Room1/Room1.yy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/CameraManager/CameraManager.gml" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/CameraManager/CameraManager.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/RoomCenter/RoomCenter.yy" beforeDir="false" afterPath="$PROJECT_DIR$/objects/RoomCenter/RoomCenter.yy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/RoomManager/Create_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/RoomManager/Create_0.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/RoomManager/RoomManager.yy" beforeDir="false" afterPath="$PROJECT_DIR$/objects/RoomManager/RoomManager.yy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/RoomManager/Step_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/RoomManager/Step_0.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/Room1/Room1.yy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/SprWall/9039f805-7696-4b05-b4b5-f03c0fa2f62c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/SprWall/SprWall.yy" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/SprWall/SprWall.yy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/SprWall/layers/9039f805-7696-4b05-b4b5-f03c0fa2f62c/68fdc95b-2ca0-49ef-946f-51bc233e10fe.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768744137774</updated>
-      <workItem from="1768744139395" duration="1616000" />
+      <workItem from="1768744139395" duration="4047000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -84,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768744221395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added physics instead">
+      <option name="closed" value="true" />
+      <created>1768749558358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768749558358</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Added physics instead" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added physics instead" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

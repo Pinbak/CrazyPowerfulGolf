@@ -1,0 +1,1 @@
+draw_sprite_ext(SprPowerUps, PowerupType, x, y, ScaleX, 1, 0, c_white, 1);
