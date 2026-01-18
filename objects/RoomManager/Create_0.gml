@@ -33,3 +33,40 @@ part_type_size(part, .5, 2, -.01, 0);
 global.PartGrassDarkest = part;
 
 #endregion
+
+#region Sequences
+
+SequenceElement = -1;
+
+AddPowerup = function(powerType)
+{
+	if (ds_map_find_value(global.DiscoveredPowerups, powerType)) return;
+	
+	ds_map_replace(global.DiscoveredPowerups, powerType, true);
+	
+	if (SequenceElement != -1)
+		if (!layer_sequence_is_finished(SequenceElement)) return;
+	
+	if (SequenceElement != -1) layer_sequence_destroy(SequenceElement);
+	
+	// new power up
+	switch(powerType)
+	{
+		case POWERUP.DUPLICATE:
+			NewSequence(NewPowerupDuplication);
+			break;
+		case POWERUP.SPEED_UP:
+			NewSequence(NewPowerupLowFriction);
+			break;
+	}
+
+	
+}
+
+NewSequence = function(sequence)
+{
+	SequenceElement = layer_sequence_create("LocalGui",
+		global.CameraCenterX, global.CameraCenterY, sequence);
+}
+
+#endregion

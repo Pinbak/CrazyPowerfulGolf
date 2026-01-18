@@ -31,13 +31,20 @@ var powerUp = instance_place(x, y, Powerup);
 if (instance_exists(powerUp))
 {
 	
+	RoomManager.AddPowerup(powerUp.PowerupType);
+	
 	switch(powerUp.PowerupType)
 	{
 		case POWERUP.DUPLICATE:
-			instance_create_layer(x, y, "Ball", GolfBall);
+			var justCreated = instance_create_layer(x, y, "Ball", GolfBall);
+			justCreated.phy_linear_damping = 2;
+			break;
 		case POWERUP.SPEED_UP:
 			phy_linear_damping = 0.1;
+			break;
 	}
+	
+	Colour = ds_map_find_value(global.PowerupColours, powerUp.PowerupType);
 	
 	instance_destroy(powerUp);
 }

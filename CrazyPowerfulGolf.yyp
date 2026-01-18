@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"SprHole","path":"sprites/SprHole/SprHole.yy",},"order":5,},
     {"id":{"name":"SprSolidBlackWall","path":"sprites/SprSolidBlackWall/SprSolidBlackWall.yy",},"order":4,},
+    {"id":{"name":"NewPowerUpFont","path":"fonts/NewPowerUpFont/NewPowerUpFont.yy",},"order":0,},
     {"id":{"name":"SprIndicator","path":"sprites/SprIndicator/SprIndicator.yy",},"order":9,},
     {"id":{"name":"SprClick","path":"sprites/SprClick/SprClick.yy",},"order":8,},
     {"id":{"name":"GolfBall","path":"objects/GolfBall/GolfBall.yy",},"order":0,},
@@ -14,6 +15,8 @@
     {"id":{"name":"Hole","path":"objects/Hole/Hole.yy",},"order":5,},
     {"id":{"name":"Powerup","path":"objects/Powerup/Powerup.yy",},"order":7,},
     {"id":{"name":"RoomManager","path":"objects/RoomManager/RoomManager.yy",},"order":1,},
+    {"id":{"name":"NewPowerupDuplication","path":"sequences/NewPowerupDuplication/NewPowerupDuplication.yy",},"order":1,},
+    {"id":{"name":"NewPowerUpSubtitleFont","path":"fonts/NewPowerUpSubtitleFont/NewPowerUpSubtitleFont.yy",},"order":1,},
     {"id":{"name":"SprFlattenedGrass","path":"sprites/SprFlattenedGrass/SprFlattenedGrass.yy",},"order":7,},
     {"id":{"name":"Maths","path":"scripts/Maths/Maths.yy",},"order":0,},
     {"id":{"name":"SprBackground","path":"sprites/SprBackground/SprBackground.yy",},"order":6,},
@@ -21,9 +24,9 @@
     {"id":{"name":"SprWall","path":"sprites/SprWall/SprWall.yy",},"order":2,},
     {"id":{"name":"SprPowerUps","path":"sprites/SprPowerUps/SprPowerUps.yy",},"order":10,},
     {"id":{"name":"TileSetFloor","path":"tilesets/TileSetFloor/TileSetFloor.yy",},"order":0,},
+    {"id":{"name":"NewPowerupLowFriction","path":"sequences/NewPowerupLowFriction/NewPowerupLowFriction.yy",},"order":2,},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},"order":2,},
     {"id":{"name":"Indicator","path":"sequences/Indicator/Indicator.yy",},"order":0,},
-    {"id":{"name":"Level2Room","path":"rooms/Level2Room/Level2Room.yy",},"order":1,},
     {"id":{"name":"SprFlattenedGrassDarker","path":"sprites/SprFlattenedGrassDarker/SprFlattenedGrassDarker.yy",},"order":11,},
     {"id":{"name":"SprDotTrail","path":"sprites/SprDotTrail/SprDotTrail.yy",},"order":3,},
     {"id":{"name":"SprGolfBall","path":"sprites/SprGolfBall/SprGolfBall.yy",},"order":0,},
@@ -50,7 +53,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Level1Room","path":"rooms/Level1Room/Level1Room.yy",},},
-    {"roomId":{"name":"Level2Room","path":"rooms/Level2Room/Level2Room.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
