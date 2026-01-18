@@ -4,22 +4,10 @@ StartedDraggingPositionY = 0;
 EndedDraggingPositionX = 0;
 EndedDraggingPositionY = 0;
 
-MaxPower = 10;
-PowerMultiplier = .1;
+MaxPower = 500;
+PowerMultiplier = 5;
 
-Speed = 0;
 Released = false;
-CurrentDirection = 0;
-
-BaseFriction = 0.1;
-Friction = BaseFriction;
-
-
-ProcessCollision = function(collidedWith)
-{
-	CurrentDirection = point_direction(collidedWith.x,
-		collidedWith.y, x, y);
-}
 
 GetLaunchDistance = function(endPosX, endPosY)
 {

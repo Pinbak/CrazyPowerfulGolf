@@ -8,27 +8,30 @@ if (Released)
 	var launchVelocity = GetLaunchDistance(EndedDraggingPositionX,
 		EndedDraggingPositionY);
 	
-	Speed = launchVelocity;
-	CurrentDirection = launchDirection;
+	
+	var xImpulse = lengthdir_x(launchVelocity, launchDirection);
+	var yImpulse = lengthdir_y(launchVelocity, launchDirection);
+	
+	physics_apply_impulse(x, y, xImpulse, yImpulse);
 	
 }
 
-if (Speed > 0)
-{
-	Speed -= (delta_time / 10000) * Friction;
+//if (Speed > 0)
+//{
+//	Speed -= (delta_time / 10000) * Friction;
 	
-	var nextPositionX = lengthdir_y(Speed, CurrentDirection);
-	var nextPositionY = lengthdir_y(Speed, CurrentDirection);
+//	var nextPositionX = lengthdir_y(Speed, CurrentDirection);
+//	var nextPositionY = lengthdir_y(Speed, CurrentDirection);
 
-	var instanceCollided = instance_place(nextPositionX, nextPositionY, Wall);
+//	var instanceCollided = instance_place(nextPositionX, nextPositionY, Wall);
 
-	if(instance_exists(instanceCollided))
-	{
-		ProcessCollision(instanceCollided);
-	}
+//	if(instance_exists(instanceCollided))
+//	{
+//		ProcessCollision(instanceCollided);
+//	}
 	
 	
-	x += lengthdir_x(Speed, CurrentDirection);
-	y += lengthdir_y(Speed, CurrentDirection);
-}
+//	x += lengthdir_x(Speed, CurrentDirection);
+//	y += lengthdir_y(Speed, CurrentDirection);
+//}
 

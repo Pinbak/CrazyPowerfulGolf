@@ -7,7 +7,7 @@ global.LastKnownWindowHeight = 720;
 global.BaseWidth = 1280;
 global.BaseHeight = 720;
 global.BaseAspect = global.BaseWidth / global.BaseHeight;
-global.MainCamera = view_camera[0];
+global.MainCamera = -1;
 
 global.AspectRatio43 = 1.33;
 

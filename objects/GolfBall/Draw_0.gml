@@ -1,15 +1,15 @@
-draw_self();
+draw_sprite_ext(SprGolfBall, 0, x, y, 1, 1, 0, c_white, 1);
 
 if (IsDragging)
 {
 	var launchDirection = GetLaunchDirection(mouse_x, mouse_y);
 	var launchDistance	= GetLaunchDistance(mouse_x, mouse_y);
 	
-	draw_text(x, y, launchDistance);
+	//draw_text(x, y, launchDistance);
 	
 	var spacing = 15;
 	
-	var trailPoints = launchDistance / 2;
+	var trailPoints = launchDistance / 100;
 	
 	for (var i = 0; i < trailPoints; i++)
 	{
@@ -25,3 +25,5 @@ if (IsDragging)
 		draw_sprite_ext(SprDotTrail, 0, curX, curY, scale, scale, 0, c_white, 1);
 	}
 }
+
+//draw_text(x, y, phy_speed);
