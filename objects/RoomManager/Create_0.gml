@@ -1,0 +1,1 @@
+SetupScaling(view_camera[0]);
