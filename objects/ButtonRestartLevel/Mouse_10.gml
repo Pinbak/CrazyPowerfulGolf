@@ -1,0 +1,1 @@
+Colour = ds_map_find_value(global.PowerupColours, POWERUP.DUPLICATE);

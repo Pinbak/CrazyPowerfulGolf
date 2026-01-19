@@ -58,9 +58,38 @@ AddPowerup = function(powerType)
 		case POWERUP.SPEED_UP:
 			NewSequence(NewPowerupLowFriction);
 			break;
+		case POWERUP.BOUNCINESS:
+			NewSequence(NewPowerupBounciness);
+			break;
+		case POWERUP.LIGHTNESS:
+			NewSequence(NewPowerupLightness);
+			break;
+		case POWERUP.DENSE:
+			NewSequence(NewPowerupDense);
+			break;
 	}
 
-	
+}
+
+FinishGame = function()
+{
+	if (SequenceElement != -1) layer_sequence_destroy(SequenceElement);
+	SequenceElement = layer_sequence_create("LocalGui",
+		global.CameraCenterX, global.CameraCenterY, FinishScreen);
+}
+
+FinishLevel = function()
+{
+	if (SequenceElement != -1) layer_sequence_destroy(SequenceElement);
+	SequenceElement = layer_sequence_create("LocalGui",
+		global.CameraCenterX, global.CameraCenterY, LevelClear);
+}
+
+RestartLevel = function()
+{
+	if (SequenceElement != -1) layer_sequence_destroy(SequenceElement);
+	SequenceElement = layer_sequence_create("LocalGui",
+		global.CameraCenterX, global.CameraCenterY, LevelFailed);
 }
 
 NewSequence = function(sequence)

@@ -6,12 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="04f00cd1-d1f4-45e5-ac57-09f02b82713a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/CrazyPowerfulGolf.yyp" beforeDir="false" afterPath="$PROJECT_DIR$/CrazyPowerfulGolf.yyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/art.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/art.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/GolfBall/Create_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Create_0.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/GolfBall/Mouse_53.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Mouse_53.gml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/GolfBall/Step_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/GolfBall/Step_0.gml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/RoomManager/Create_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/RoomManager/Create_0.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/RoomManager/RoomManager.yy" beforeDir="false" afterPath="$PROJECT_DIR$/objects/RoomManager/RoomManager.yy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/RoomManager/Step_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/RoomManager/Step_0.gml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/Level1Room/Level1Room.yy" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/Level1Room/Level1Room.yy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/Level2Room/Level2Room.yy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Globals/Globals.gml" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Globals/Globals.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/Level1Room/Level1Room.yy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/CameraManager/CameraManager.gml" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/CameraManager/CameraManager.gml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768744137774</updated>
-      <workItem from="1768744139395" duration="4667000" />
+      <workItem from="1768744139395" duration="5290000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -95,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768764041338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More powerups">
+      <option name="closed" value="true" />
+      <created>1768771292512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768771292512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +130,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Added physics instead" />
     <MESSAGE value="Add powerups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add powerups" />
+    <MESSAGE value="More powerups" />
+    <option name="LAST_COMMIT_MESSAGE" value="More powerups" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

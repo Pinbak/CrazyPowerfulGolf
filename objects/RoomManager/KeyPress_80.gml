@@ -1,0 +1,1 @@
+global.ParticlesEnabled = !global.ParticlesEnabled;

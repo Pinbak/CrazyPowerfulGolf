@@ -121,6 +121,14 @@ function InstanceFollowCamera(instance, lerpSpeed = 1)
 	instance.y = newY;
 }
 
+function InstanceFollowPosition(instance, posX, posY, lerpSpeed = 1)
+{
+	var newX = lerp(instance.x, posX, lerpSpeed);
+	var newY = lerp(instance.y, posY, lerpSpeed);
+	instance.x = newX;
+	instance.y = newY;
+}
+
 function SequenceFollowCamera(sequence, lerpSpeed = 1)
 {
 	var newX = lerp(layer_sequence_get_x(sequence), global.CameraCenterX, lerpSpeed);

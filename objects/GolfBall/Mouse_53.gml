@@ -1,4 +1,4 @@
-if (phy_speed < 0.1 && !RoomManager.CurrentLevelWon)
+if (phy_speed < 0.5 && !RoomManager.CurrentLevelWon && !IsDead)
 {
 	IsDragging = true;
 	StartedDraggingPositionX = mouse_x;
